@@ -11,10 +11,19 @@ export default {
 </script>
 
 <template>
-  <app-title></app-title>
-  <app-hero></app-hero>
+  <div class="container">
+    <app-title></app-title>
+    <app-hero></app-hero>
+  </div>
 </template>
 
 <style>
+.container {
+  margin: 0 auto;
+  width: 1600px;
+}
 
+img {
+  max-width: 100%;
+}
 </style>
